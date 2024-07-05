@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    div {
+        color: blueviolet;
+    }
+
+    /* class selector */
+    .blue{
+        color: tomato;
+    }
+
+    /* id selector */
+    #green{
+        background-color: green;
+        color: rgb(0, 0, 0);
+    }
+
+    /* child selector */
+    span > h3{
+        color: black;
+        background-color: aqua;
+    }
+
+    /* descendanr selector */
+    div h2{
+        color: brown;
+        background-color: azure;
+    }
+
+     /* universal selector (Select all) */
+     *{
+        margin: 0;
+        padding: 0;
+     }
+
+     /* Psudo selector */
+     a:visited{
+        color: yellow;
+     }
+     a:link{
+        color: green;
+     }
+     a:hover{
+        background-color: aqua;
+     }
+</style>
+
+</head>
+
+
+<body>
+   <div>
+    Sarthak Gadakh
+   </div>
+
+   <div class="blue">
+    Class sector
+   </div>
+
+   <div id="green">
+    ID Selector
+   </div>
+
+   <span>
+    <h3>Child selector</h3>
+   </span>
+
+   <div>
+    <span>
+        <h2> descendanr selector </h2>
+    </span>
+   </div>
+
+   <a href="http://google.com">Go to Google</a>
+</body>
+</html>

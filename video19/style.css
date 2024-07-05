@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tiny5&display=swap');
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 49px;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 5px;
+    text-align: center;
+}
+
+p {
+
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    /* line-height: 5;  Spaces*/
+    letter-spacing: 5px;
+
+}
